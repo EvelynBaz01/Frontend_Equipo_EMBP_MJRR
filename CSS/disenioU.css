@@ -16,6 +16,7 @@
 /* ==== CSS VARIABLES ==== */
 :root {
   --primary-color: #335eea;
+  --primary-color2: #eade33;
   --link-color: #506690;
   --btn-hover-color: #2b50c7;
   --lg-heading: #161c2d;
@@ -129,6 +130,16 @@ button {
 .main-heading span {
   color: var(--primary-color);
 }
+
+.main-headings {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 55px;
+}
+.main-headings span {
+  color: var(--primary-color2);
+} 
+
 .info-text {
   margin-top: 1.5rem;
   font-size: 19px;

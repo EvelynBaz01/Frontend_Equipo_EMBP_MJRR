@@ -45,6 +45,13 @@ gsap.from(".main-heading", {
   delay: 2.4,
   duration: 1,
 });
+
+gsap.from(".main-headings", {
+  opacity: 0,
+  y: 20,
+  delay: 2.4,
+  duration: 1,
+});
 // ==== INFO TEXT ==== //
 gsap.from(".info-text", {
   opacity: 0,
