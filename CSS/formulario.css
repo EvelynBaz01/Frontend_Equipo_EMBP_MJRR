@@ -25,9 +25,8 @@ html, body {
   padding-right: 1%;
   padding-top: 1%;
   padding-bottom: 2%;
-  width: 68%;
+  width: 66%;
   height: 2%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #fafbfb;
 }
 
@@ -39,23 +38,22 @@ html, body {
   padding-bottom: 2%;
   width: 98%;
   height: 2%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #eade33;
 }
 
 #primero {
   float: left;
-  width: 28%;
+  width: 29%;
   height: 86%;
   padding-left: 1%;
-  padding-right: 1%;
+  padding-right: 2%;
   padding-top: 1%;
   background-color: #eade33;
 }
 
 #segundo {
-  float: left;
-  width: 68%;
+  float: right;
+  width: 66%;
   height: 86%;
   padding-left: 1%;
   padding-right: 1%;
@@ -68,4 +66,22 @@ html, body {
   height: 0.5%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #335eea;
+}
+
+.colors {
+  color:#f1f1e9;
+}
+
+.grid-col-item {
+  height: 100%;
+}
+
+.icon svg {
+  width: 40px;
+  height: 40px;
+  color: #6b85d8;
+}
+
+#lista ul li{
+  display:inline;
 }
