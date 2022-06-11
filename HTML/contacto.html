@@ -18,7 +18,7 @@
         </div>
         <div id="primero">
             <div>
-                <div id="lista" align="center">
+                <div align="center">
                     <ul>
                         <li>
                             <div class="icon"> 
@@ -38,7 +38,55 @@
                     
                     
         </div>
-        <div id="segundo"></div>
+        <div id="segundo">
+            <header class="container header">
+                <!-- ==== NAVBAR ==== -->
+                <nav class="nav">
+                    <div class="contact_form">
+          
+                        <div class="formulario">      
+                            <h3 class="form-titulo">Escríbenos y en breve los pondremos en contacto contigo</h3>
+                            <form class="contenedor-inputs">       
+                                <p>
+                                    <label for="nombre" class="colocar_nombre">Nombre
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" minlength="3"
+                                    maxlength="15" placeholder="Escribe tu nombre">
+                                </p>
+                                <p>
+                                    <label for="email" class="colocar_email">Email
+                                      <span class="obligatorio">*</span>
+                                    </label>
+                                    <input type="email" name="introducir_email" id="email" required="obligatorio" pattern=".+@globex\.com" size="30" placeholder="Escribe tu Email">
+                                </p>
+                                <p>
+                                        <label for="telefone" class="colocar_telefono">Teléfono</label>
+                                        <input type="tel" name="introducir_telefono" id="telefono" minlength="10" maxlength="10" placeholder="Escribe tu teléfono">
+                                </p>   
+                                <p>
+                                        <label for="asunto" class="colocar_asunto">Asunto
+                                        <span class="obligatorio">*</span>
+                                        </label>
+                                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" minlength="5" maxlength="15" placeholder="Escribe un asunto">
+                                </p>    
+                                <p>
+                                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                                        <span class="obligatorio">*</span>
+                                        </label>                     
+                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" minlength="20" maxlength="255" 
+                                    placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                    
+                                <button type="submit" name="enviar_formulario"><p>Enviar</p></button>
+                                <p class="aviso">
+                                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                                </p>          
+                            </form>
+                        </div>  
+                    </div>
+                </nav>
+            </header>
+        </div>
         <div id="pie"></div>
     </div>
     <!-- ==== ANIMATE ON SCROLL JS CDN -->

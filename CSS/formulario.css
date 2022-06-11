@@ -58,7 +58,7 @@ html, body {
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 1%;
-  background-color: blueviolet;
+  background-color: #fafbfb;
 }
 
 #pie {
@@ -84,4 +84,144 @@ html, body {
 
 #lista ul li{
   display:inline;
+}
+
+
+.contact_form{  
+  width: 50%; 
+  height: auto;
+  margin-top: 1%;
+  margin-left: 23%;
+  border-radius: 10px;  
+  padding-top: 10px;
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+  border-color: #335eea;
+  border-radius: 5px;  
+  border-style: solid; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 90%; 
+  height: 25px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #1013ac; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 90%; 
+  height: 90%; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #1013ac; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+label{
+  display: block; 
+  float: center;  
+}
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 10px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #6498db; 
+  border-color: #6498db; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 92%;   
+  cursor: pointer;
+}
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #6163d6; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h2{
+  font-size: 30px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #1013ac;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 10px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #eade33;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #eade33;
+}
+
+.view_more_btn {
+  width: 180px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 10px;
+  box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+}
+
+.view_more_btn i {
+  margin-left: 0.7rem;
 }
