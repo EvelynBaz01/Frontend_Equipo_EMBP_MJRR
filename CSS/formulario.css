@@ -64,7 +64,6 @@ html, body {
 #pie {
   width: 98%;
   height: 0.5%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #335eea;
 }
 
@@ -85,7 +84,6 @@ html, body {
 #lista ul li{
   display:inline;
 }
-
 
 .contact_form{  
   width: 50%; 
@@ -168,6 +166,7 @@ span{
 
 h2{
   font-size: 30px;  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: letf; 
   padding-bottom: 20px; 
   color: #1013ac;
@@ -177,6 +176,7 @@ h2{
 h3{
   font-size: 16px; 
   padding-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
   color: #0e0e0e;   
 }
 
