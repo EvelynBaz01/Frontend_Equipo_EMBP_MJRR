@@ -69,16 +69,11 @@ html, body {
 
 .colors {
   color:#f1f1e9;
+  
 }
 
 .grid-col-item {
   height: 100%;
-}
-
-.icon svg {
-  width: 40px;
-  height: 40px;
-  color: #6b85d8;
 }
 
 #lista ul li{
@@ -176,7 +171,7 @@ h2{
 h3{
   font-size: 16px; 
   padding-bottom: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #0e0e0e;   
 }
 
@@ -224,4 +219,27 @@ p{
 
 .view_more_btn i {
   margin-left: 0.7rem;
+}
+
+.icon {
+  width: 100%;
+  
+}
+
+.icon svg {
+  width: 30px;
+  height: 30px;
+  
+  color: #6b85d8;
+}
+
+.nav {
+  height: 60%;
+  align-items: left;
+  justify-content: space-between;
+}
+
+.nave {
+  height: 60%;
+  align-items: center;
 }
