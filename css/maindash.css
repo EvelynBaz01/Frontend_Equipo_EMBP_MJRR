@@ -2562,7 +2562,25 @@ fieldset:disabled a.btn {
   border-color: rgba(214, 166, 25, 0.83);
 }
 
-.btn-primary2 {
+.btn-primaryV {
+  color: #FFF;
+  background-color: rgba(23, 135, 23, 0.83);
+  border-color: rgba(23, 135, 23, 0.83);
+}
+
+.btn-primaryA {
+  color: #FFF;
+  background-color: rgba(16, 48, 144, 0.83);
+  border-color: rgba(16, 48, 144, 0.83);
+}
+
+.btn-primaryR {
+  color: #FFF;
+  background-color: rgba(220, 31, 18, 0.83);
+  border-color: rgba(220, 31, 18, 0.83);
+}
+
+.btn-primaryG {
   color: #FFF;
   background-color: rgba(115, 114, 110, 0.83);
   border-color: rgba(115, 114, 110, 0.83);
