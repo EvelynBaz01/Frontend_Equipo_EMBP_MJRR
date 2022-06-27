@@ -50,7 +50,12 @@
         </div>
         <ul class="app-menu">
             <li><a class="app-menu__item" href="dashboard.html"><i class="app-menu__icon fa fa-id-card-o"></i><span class="app-menu__label">Inicio</span></a></li>
-            <li><a class="app-menu__item active" href="users.html"><i class="app-menu__icon icon fa fa-users"></i><span class="app-menu__label">Usuarios</span></a></li>
+            <li class="treeview"><a class="app-menu__item active" href="" data-toggle="treeview"><i class="app-menu__icon icon fa fa-users"></i><span class="app-menu__label">Usuarios</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+              <ul class="treeview-menu">
+                <li><a class="treeview-item" href="users.html"><i class="icon fa fa-circle-o"></i> Lista de usuarios</a></li>
+                <li><a class="treeview-item" href="Userregister.html"><i class="icon fa fa-circle-o"></i> Registrar usuarios</a></li>
+              </ul>
+            </li>
             <li class="treeview"><a class="app-menu__item" href="" data-toggle="treeview"><i class="app-menu__icon fa fa-pie-chart"></i><span class="app-menu__label">Productos</span><i class="treeview-indicator fa fa-angle-right"></i></a>
               <ul class="treeview-menu">
                 <li><a class="treeview-item" href="product.html"><i class="icon fa fa-circle-o"></i> Lista de productos</a></li>
@@ -70,7 +75,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="tile">
-            <p><a class="btn btn-primaryV icon-btn" href=""><i class="fa fa-plus"></i>Agregar usuario</a></p>
+            <p><a class="btn btn-primaryV icon-btn" href="Userregister.html"><i class="fa fa-plus"></i>Agregar usuario</a></p>
             <div class="tile-body">
               <table class="table table-striped">
                 <thead align="center">
